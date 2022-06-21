@@ -1,10 +1,12 @@
 .container {
-  padding: 0 2rem;
+  max-width: auto;
+  margin: 0 auto;
 }
 
 .main {
   min-height: 100vh;
   padding: 4rem 0;
+  background-color: #b5b6bb;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -29,14 +31,14 @@
 }
 
 .title a {
-  color: #0070f3;
-  text-decoration: none;
+  color: #ff7300;
+  text-decoration: wavy underline;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  text-decoration: underline; 
 }
 
 .title {
@@ -57,7 +59,7 @@
 }
 
 .code {
-  background: #fafafa;
+  background: #f5a96b;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -70,7 +72,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: auto;
 }
 
 .card {
@@ -88,8 +90,9 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #000000;
+  border-color: #000000;
+  background-color: #f5a96b;
 }
 
 .card h2 {

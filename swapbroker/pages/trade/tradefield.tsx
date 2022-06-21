@@ -1,6 +1,7 @@
 import * as React from "react";
 import { IErrors } from "./tradeform";
 
+
 /* The available editors for the field */
 type Editor = "textbox" | "multilinetextbox" | "dropdown";
 
